@@ -195,7 +195,7 @@ class Proxy:
         self.website = "https://c4.freefireinfo.site/api/{id}"
         self.Beston = False
         self.Server = False
-        self.owner = "SinqoVarie"
+        self.owner = " Rdlakhal"
         self.repo = "8161957"
         self.file_name = "çlæñ.txt"
         self.url = f"https://api.github.com/repos/{self.owner}/{self.repo}/contents/"

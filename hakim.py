@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 import time
 
 
-API_TOKEN = "7537337737:AAEYvuySYx-Pt95pOl112O7TdLF282vhXbc"
+API_TOKEN = "7465647986:AAFg7rMl7CGZ133FCX2LhJRhOlyL2D1SaB8"
 bot = telebot.TeleBot(API_TOKEN)
 
 username = "Rdlakhal"

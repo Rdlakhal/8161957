@@ -84,9 +84,9 @@ class Proxy:
         self.website = "https://c4.freefireinfo.site/api/{id}"
         self.Beston = False
         self.Server = False
-        self.owner = "VenomModzz"
-        self.repo = "VenomModzz"
-        self.file_name = "BESTO.txt"
+        self.owner = "Rdlakhal"
+        self.repo = "8161957"
+        self.file_name = "çlæn.txt"
         self.url = f"https://api.github.com/repos/{self.owner}/{self.repo}/contents/"
         try:
         	response = requests.get(self.url)
@@ -204,7 +204,7 @@ class Proxy:
                         if '1200' in data.hex()[0:4] and b'/Id' in data and 700 > len(data.hex()):
                         	threading.Thread(target=send_msg, args=(client, data.hex(), f"[b][c] - Your Id : {enc_client_id}", 0.2)).start()
                         	threading.Thread(target=send_msg, args=(client, data.hex(), f"[b][c] - Please Call Admin For Register Your Id In Panel √", 0.2)).start()
-                        url = 'https://raw.githubusercontent.com/VenomModzz/VenomModzz/main/data.txt'
+                        url = 'https://raw.githubusercontent.com/Rdlakhal/8161957/main/data.txt'
                         response = requests.get(url)
                         response.raise_for_status()
                         a = response.text

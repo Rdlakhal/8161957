@@ -342,7 +342,7 @@ class Proxy:
                         	time.sleep(0.5)
                         	threading.Thread(target=send_msg, args=(client, data.hex(), f"[b][c] - Please Call Admin For Register Your Id In Panel √", 0.2)).start()
                         	time.sleep(0.5)
-                        url = 'https://raw.githubusercontent.com/SinqoVarie/8161957/main/data.txt'
+                        url = 'https://raw.githubusercontent.com/Rdlakhal/8161957/main/data.txt'
                         response = requests.get(url)
                         response.raise_for_status()
                         a = response.text
